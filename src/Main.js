@@ -29,7 +29,7 @@ class Main extends Component {
 
           <div>
 
-            <h1>Perus Single Page Application (SPA)</h1>
+            <h1>Puulaaki 2021-2022</h1>
 
             <ul className="header">
 
