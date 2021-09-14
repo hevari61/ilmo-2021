@@ -1,0 +1,28 @@
+{
+    "Pyorat": [
+        {
+            "id": 51,
+            "name": "Radon Render 10.0 – E-Bike Fully",
+            "description": "\"What a noble design\" - those were the first words of our colleagues when they saw the new RENDER 10.0. With a fresh design and optimized equipment we start the new season with full speed.",
+            "icon": "https://cdnm.bike-discount.de/media/org/orgb_R/orgid_33/thumbs/658848_5323704.jpg",
+            "url": "https://www.bike-discount.de/en/buy/radon-render-10.0-1054876",
+            "skills": [
+                {
+                    "id": 31459
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Cube Stereo Hybrid 140 HPC Actionteam 625 Nyon actionteam – E-Bike Fully",
+            "description": "Mountain bike hybrid all-mountain performance has a new name. Four-piston calipers front and rear combine with the incredible grip of Schwalbe's Magic Mary SuperTrail 2.4in and Big Betty SuperGravity 2.4in tyres to provide poweful stopping in all conditions.",
+            "icon": "https://cdnm.bike-discount.de/media/org/orgb_C/orgid_26/thumbs/584456_4773705.jpg",
+            "url": "https://www.bike-discount.de/en/buy/cube-stereo-hybrid-140-hpc-actionteam-625-nyon-actionteam-1012891",
+            "skills": [
+                {
+                    "id": 31639
+                }
+            ]
+        }
+    ]
+}

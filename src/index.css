@@ -1,13 +1,117 @@
 body {
+  padding: 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1563990308267-cd6d3cc09318?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: sans-serif;
+  color: #fff;
+  opacity: 0.5;
+}
+
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+  color: #fff;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+  opacity: 0.8;
+}
+ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #ff6600;
+}
+
+.pyorat h1 {
+  color: #111;
+}
+
+.pyorat-kortti {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  background-color: #ff6600;
+  opacity: 3.5;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: rgb(29, 27, 27);
+}
+
+.pyorat-kortti img {
+  max-width: 300px;
+}
+
+.pyorat h2 {
+  text-align: center;
+  color: #ff6600;
+}
+
+.api h2 {
+  text-align: center;
+  color: #ff6600;
+}
+.api-p p {
+  color: #fff;
+}
+a.button1 {
+  display: inline-block;
+
+  padding: 0.35em 1.2em;
+
+  border: 0.1em solid #ffffff;
+
+  margin: 0 0.3em 0.3em 0;
+
+  border-radius: 0.12em;
+
+  box-sizing: border-box;
+
+  text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 300;
+
+  color: #ffffff;
+
+  text-align: center;
+
+  transition: all 0.2s;
+}
+
+a.button1:hover {
+  color: #000000;
+
+  background-color: #ffffff;
 }
