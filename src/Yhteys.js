@@ -1,5 +1,5 @@
 import React, { Component } from "react";
- 
+
 class Yhteys extends Component {
   render() {
     return (

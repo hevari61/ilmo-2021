@@ -12,5 +12,5 @@ class Koti extends Component {
     );
   }
 }
- 
+
 export default Koti;
