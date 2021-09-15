@@ -1,0 +1,3 @@
+GET http://localhost:8080/api/test/admin HTTP/1.1
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMzc1ZWVkN2U4N2RiMGEwYmU3MDhmYiIsImlhdCI6MTYzMTAxODkyNywiZXhwIjoxNjMxMTA1MzI3fQ.mhxGNRvV4aLh9oG2vE5NvHv6zG7KxEly4Mu63RsM3N4
+

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
  
-class Tarina extends Component {
+class Tulokset extends Component {
   render() {
     return (
       <div>
-        <h2>Tarina</h2>
+        <h2>Tulokset</h2>
         <p>Tähämpä sitten voi säveltää omaa juttuaan ja sivun sisältöä:</p>
         <ol>
           <li>Listan juttu 1</li>
@@ -18,4 +18,4 @@ class Tarina extends Component {
   }
 }
  
-export default Tarina;
+export default Tulokset;

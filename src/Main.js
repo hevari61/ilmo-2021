@@ -9,7 +9,7 @@ from "react-router-dom";
 
 import Koti from "./Koti";
 
-import Tarina from "./Tarina";
+import Tulokset from "./Tulokset";
 
 import Yhteys from "./Yhteys";
 import Pyorat from "./Pyorat";
@@ -35,7 +35,7 @@ class Main extends Component {
 
               <li><NavLink exact to="/">Koti</NavLink></li>
 
-              <li><NavLink to="/tarina">Tarinaa</NavLink></li>
+              <li><NavLink to="/tulokset">Tuloksia</NavLink></li>
 
               <li><NavLink to="/yhteys">Yhteys</NavLink></li>
               <li><NavLink to="/pyorat">Pyörät</NavLink></li>
@@ -47,7 +47,7 @@ class Main extends Component {
 
               <Route exact path="/" component={Koti}/>
 
-              <Route path="/tarina" component={Tarina}/>
+              <Route path="/tulokset" component={Tulokset}/>
 
               <Route path="/yhteys" component={Yhteys}/>
               <Route path="/pyorat" component={Pyorat}/>
