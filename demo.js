@@ -5,9 +5,15 @@ async function main() {
     const uri = "mongodb+srv://hevari:Kontio1961&@cluster0.beap7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
     const client = new MongoClient(uri);
-try {
-    await client.connect();
-    await listDatabases(client);
+    
+    try {
+        await client.connect();
+
+        await createListing(client, {
+            Name: "Hevonkoski Ari",
+            Osall: "2"
+        });
+
 } catch (e) {
     console.error(e);
 } finally {
@@ -17,6 +23,15 @@ try {
 }
 
 main().catch(console.error);
+
+async function createListing(client, newListing) {
+    const result = await client.db("hevari").collection("kseurantadb").insertOne
+    (newListing);
+
+    console.log(`Uusi listaus luotu idllä: ${result.insertedId}`);
+
+
+}
 
 async function listDatabases(client) {
     const databasesList = await client.db().admin().listDatabases();
