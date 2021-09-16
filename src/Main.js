@@ -14,6 +14,8 @@ import Tulokset from "./Tulokset";
 import Yhteys from "./Yhteys";
 import Pyorat from "./Pyorat";
 import Api from "./Api";
+import Kirjaudu from "./Kirjaudu";
+import Login from "./containers/Login";
 // import Tarinat from "./Tarinat";
 
 
@@ -41,6 +43,8 @@ class Main extends Component {
               <li><NavLink to="/pyorat">Pyörät</NavLink></li>
               <li><NavLink to="/api">Api</NavLink></li>
               <li><NavLink to="/tarinat">Tarinat</NavLink></li>
+              <li><NavLink to="/kirjaudu">Kirjaudu</NavLink></li>
+              <li><NavLink to="/containers/login">Kirjautuminen</NavLink></li>
             </ul>
 
             <div className="content">
@@ -52,6 +56,8 @@ class Main extends Component {
               <Route path="/yhteys" component={Yhteys}/>
               <Route path="/pyorat" component={Pyorat}/>
               <Route path="/api" component={Api}/>
+              <Route path="/kirjaudu" component={Kirjaudu}/>
+              <Route exact path="/containers/login"><Login /></Route>
               
             </div>
 

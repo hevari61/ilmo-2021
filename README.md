@@ -1,4 +1,8 @@
-uudella pohjalla tehty.
+16.09. 
+Kirjautuminen löytyy /containers/Login.js
+
+se ei vielä käytä kantoja. Jatkuu vielä tappelu
+---uudella pohjalla tehty.
 nodessa salis toimii. Poistettu turhia. 
 
 tulos lomake tulossa 
