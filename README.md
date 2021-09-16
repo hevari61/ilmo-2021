@@ -1,4 +1,8 @@
-hyödynnän tuota login1.html/src kansios sekä server.js  juuressa. noiden pohjalta saan tehtyä sitten react ja palautan vanhan serverin (päivittäen sitä vähän
+login lomakkeilla login/reg/vaihdetaan.   server.js saa sieltä ja sinne tekemistä ja requiret jne
+
+NYT VÄHÄN lepoa, ku on puoliyötö ihmetelty.
+
+..hyödynnän tuota login1.html/src kansios sekä server.js  juuressa. noiden pohjalta saan tehtyä sitten react ja palautan vanhan serverin (päivittäen sitä vähän
 kommetteja paremmin sitten ku on enemmän toimivampi. noiden nykyisten tilalle. node serveri ei vielä tykkää. 
 
 tuo login1.html src piti toimii, nyt huutaa etttä ei mukamas expressiä vaikka on, pitää kuulemma npm install, että on kivaa

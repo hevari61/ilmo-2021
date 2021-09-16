@@ -2,17 +2,52 @@ const express = require("express");
 const app = express();
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
-const User = require('./models/user')
+const User = require('models/user')
 const bcrypt = require('bcryptjs')
+const jwt = require('jsonwebtoken')
+const JWT_SECRET = 'ihansekoo&&sanoisinpitkasti'
 
 mongoose.connect('mongodb://@cluster0.beap7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' , {
   useNewUrlParser: true,
   useUnifiedTopology: true
+  useCreateIndex: true
 })
+// tällä vihdetaan setMaxLi
 
 // osaan koodista tuon html takia lisätty tähän, myöhemmin muutetaan vastaamaan jsää
-const path = require('path')
+const path = require('path');
+const { setMaxListeners } = require("process");
 // app.use('/', express.static(path.join(__dirname, 'static')))
+
+app.post('/api/login2', async (req, res) => {
+  const { token } = req.body
+
+app.post('/api/login', async (req, res) => {
+
+  const { username, password } = req.body 
+  const user = await User.findOne({ username, password }).lean()
+
+  if (!user) {
+    return res.json({ status: 'error', error: 'Väärä käyttis/salis'})
+  }
+
+    //comapare vertaa että kumpikin löytyy käyttis ja salis ja ne mätsää.
+  if(await bcrypt.compare(password, user.password)) {
+
+    const token = jwt.sign({ 
+      id: user,
+      user.username
+      
+    } 
+        JWT_SECRET 
+        )
+
+    return res.json({ status: 'ok', data: '' })
+  }
+
+  res.json({ status: 'error', error: 'Väärä käyttis/salis'})
+})
+
 
 //virheen käsittelyä (epäkelpoa merkkiä, väärä salis ja pituus lyhyt...)
 app.post('api/register', async (req, res) => {
