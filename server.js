@@ -19,7 +19,7 @@ app.post('api/register', async (req, res) => {
 })
 app.listen(8080, () => {
   console.log('Serveri runnaa 8080') 
-
+})
 require('dotenv').config();
 
 app.use(express.json());
@@ -83,4 +83,3 @@ function initial() {
       });
     }
   });
-}})
