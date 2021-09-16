@@ -1,5 +1,5 @@
 16.09. 
-Kirjautuminen löytyy src/containers/Login.js
+Kirjautuminen löytyy src/containers/Login.js 
 
 se ei vielä käytä kantoja. Jatkuu vielä tappelu
 ---uudella pohjalla tehty.
