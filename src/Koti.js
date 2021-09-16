@@ -8,6 +8,7 @@ class Koti extends Component {
         <p>Tähän tekstiä. Tähän tekstiä. Tähän tekstiä..
           jotain
         </p>
+        <p>Kirjaudu: <a href="./login1.html">Tästä</a>.</p>
       </div>
     );
   }

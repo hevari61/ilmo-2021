@@ -1,3 +1,6 @@
+tuo login1.html src piti toimii, nyt huutaa etttä ei mukamas expressiä vaikka on, pitää kuulemma npm install, että on kivaa
+
+
 16.09. 
 Kirjautuminen löytyy src/containers/Login.js 
 
