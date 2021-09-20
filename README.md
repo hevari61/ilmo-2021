@@ -1,3 +1,6 @@
+Ma päivän aikana loginia kuntoon asioiden hoitamisen ohelle. Yritän gitata ennen 1400 viimeistään.
+
+
 login lomakkeilla login/reg/vaihdetaan.   server.js saa sieltä ja sinne tekemistä ja requiret jne
 
 NYT VÄHÄN lepoa, ku on puoliyötö ihmetelty.
