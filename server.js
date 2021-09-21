@@ -7,12 +7,13 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = 'ihansekoo&&sanoisinpitkasti'
 
+//yhteys dbaan
 mongoose.connect('mongodb://@cluster0.beap7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' , {
   useNewUrlParser: true,
   useUnifiedTopology: true
   useCreateIndex: true
 })
-// tällä vihdetaan setMaxLi
+// tällä vaihdetaan setMaxLi
 
 // osaan koodista tuon html takia lisätty tähän, myöhemmin muutetaan vastaamaan jsää
 const path = require('path');
