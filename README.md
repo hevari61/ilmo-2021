@@ -1,4 +1,6 @@
-Ma päivän aikana loginia kuntoon asioiden hoitamisen ohelle. Yritän gitata ennen 1400 viimeistään.
+Ma päivän asiointi venyi.
+
+Jatkan tuota loginia kuntoon gittaillaan
 
 
 login lomakkeilla login/reg/vaihdetaan.   server.js saa sieltä ja sinne tekemistä ja requiret jne
