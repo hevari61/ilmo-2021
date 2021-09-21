@@ -1,3 +1,5 @@
+login js pitää kokeilla, kossa tuo login.html projekti ei ihan päde, siinä tosin on oikeita asioita, mutta db yhteys tökkii siinä. Samoin vanha server.js pitää palauttaa... ai että ketuttaa.
+
 Ma päivän asiointi venyi.
 
 Jatkan tuota loginia kuntoon gittaillaan
