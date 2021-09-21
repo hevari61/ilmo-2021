@@ -1,4 +1,4 @@
-npm istallia piti tehdä
+nyt tarvii pienen tuumaustauon, täytyy tutkia noi kodet tarkemmin ja yrittää olla yrittämättä liikaa. ajatuksen kanssa
 
 login js pitää kokeilla, kossa tuo login.html projekti ei ihan päde, siinä tosin on oikeita asioita, mutta db yhteys tökkii siinä. Samoin vanha server.js pitää palauttaa... ai että ketuttaa.
 
